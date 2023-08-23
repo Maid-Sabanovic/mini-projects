@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>User List</title>
+  </head>
+  <body>
+    <header class="mb-5">
+      <div class="container mt-5">
+        <!--Toggle buttons-->
+        <div class="row">
+          <div class="col-12 d-flex justify-content-end">
+            <div class="btn-group">
+              <button
+                class="btn btn-sm btn-secondary"
+                data-bs-theme-value="dark"
+              >
+                Dark
+              </button>
+              <button class="btn btn-sm btn-light" data-bs-theme-value="white">
+                White
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--Heading Text-->
+        <div class="row">
+          <div class="col-12 d-flex">
+            <h1>Users</h1>
+          </div>
+        </div>
+        <!--Search Bar and links-->
+        <div class="row my-4">
+          <!--Search Bar-->
+          <div class="col-md-3">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Users"
+              />
+            </div>
+          </div>
+          <!--Links-->
+          <div
+            class="col-md-9 d-flex nav-menu justify-content-end align-items-center"
+          >
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="" class="nav-link">Reputation</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link text-bg-primary rounded-3"
+                  >New Users</a
+                >
+              </li>
+              <li class="nav-item"><a href="" class="nav-link">Editors</a></li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Moderators</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!--Users section-->
+      <div class="row mt-5">
+        <div class="col-12">
+          <!--User Row-->
+          <div class="row">
+            <!--First User-->
+            <div class="col-6 col-xl-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row d-flex align-items-center">
+                    <!-- This row ensures that the columns align horizontally -->
+                    <!--User Profile Picture-->
+                    <div class="col-md-6 col-lg-5 col-xl-6 text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/75.jpg"
+                        alt="User Profile Picture"
+                        class="img-fluid rounded-circle"
+                      />
+                    </div>
+                    <!--User Information-->
+                    <div class="col-md-6 col-lg-7 col-xl-6">
+                      <!--User Name-->
+                      <div class="row text-center text-md-start mt-3 mt-md-0">
+                        <h4 class="card-title">
+                          <span
+                            class="d-block d-block d-sm-inline d-md-block d-lg-inline d-xl-block d-xxl-inline"
+                            >John</span
+                          >
+                          <span>Doe</span>
+                        </h4>
+                      </div>
+                      <!--User Location-->
+                      <div class="row text-center text-md-start">
+                        <p class="card-text">Troy, MI</p>
+                      </div>
+                      <!--User Tags-->
+                      <div
+                        class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start"
+                      >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Nature</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Travel</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Sports</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Second User-->
+            <div class="col-6 col-xl-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row d-flex align-items-center">
+                    <!-- This row ensures that the columns align horizontally -->
+                    <!--User Profile Picture-->
+                    <div class="col-md-6 col-lg-5 col-xl-6 text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/75.jpg"
+                        alt="User Profile Picture"
+                        class="img-fluid rounded-circle"
+                      />
+                    </div>
+                    <!--User Information-->
+                    <div class="col-md-6 col-lg-7 col-xl-6">
+                      <!--User Name-->
+                      <div class="row text-center text-md-start mt-3 mt-md-0">
+                        <h4 class="card-title">
+                          <span
+                            class="d-block d-block d-sm-inline d-md-block d-lg-inline d-xl-block d-xxl-inline"
+                            >Lelah</span
+                          >
+                          <span>Nichols</span>
+                        </h4>
+                      </div>
+                      <!--User Location-->
+                      <div class="row text-center text-md-start">
+                        <p class="card-text">Fort Worth, TX</p>
+                      </div>
+                      <!--User Tags-->
+                      <div
+                        class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start justify-content-center justify-content-md-start"
+                      >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Fashion</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >STEM</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Architecture</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Third User-->
+            <div class="col-6 col-xl-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row d-flex align-items-center">
+                    <!--User Profile Picture-->
+                    <div class="col-md-6 col-lg-5 col-xl-6 text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/50.jpg"
+                        alt="User Profile Picture"
+                        class="img-fluid rounded-circle"
+                      />
+                    </div>
+                    <!--User Information-->
+                    <div class="col-md-6 col-lg-7 col-xl-6">
+                      <!--User Name-->
+                      <div class="row text-center text-md-start mt-3 mt-md-0">
+                        <h4 class="card-title">
+                          <span
+                            class="d-block d-block d-sm-inline d-md-block d-lg-inline d-xl-block d-xxl-inline"
+                            >Annie</span
+                          >
+                          <span>Rice</span>
+                        </h4>
+                      </div>
+                      <!--User Location-->
+                      <div class="row text-center text-md-start">
+                        <p class="card-text">Troy, MI</p>
+                      </div>
+                      <!--User Tags-->
+                      <div
+                        class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start"
+                      >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Electronics</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Tech</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Music</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Fourth User-->
+            <div class="col-6 col-xl-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row d-flex align-items-center">
+                    <!-- This row ensures that the columns align horizontally -->
+                    <!--User Profile Picture-->
+                    <div class="col-md-6 col-lg-5 col-xl-6 text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/15.jpg"
+                        alt="User Profile Picture"
+                        class="img-fluid rounded-circle"
+                      />
+                    </div>
+                    <!--User Information-->
+                    <div class="col-md-6 col-lg-7 col-xl-6">
+                      <!--User Name-->
+                      <div class="row text-center text-md-start mt-3 mt-md-0">
+                        <h4 class="card-title">
+                          <span
+                            class="d-block d-sm-inline d-md-block d-lg-inline d-xl-block d-xxl-inline"
+                            >Thomas</span
+                          >
+                          <span>Sinew</span>
+                        </h4>
+                      </div>
+                      <!--User Location-->
+                      <div class="row text-center text-md-start">
+                        <p class="card-text">Lynn, MA</p>
+                      </div>
+                      <!--User Tags-->
+                      <div
+                        class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start"
+                      >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Vintages</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Clothes</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Sports</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Fifth User-->
+            <div class="col-6 col-xl-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row d-flex align-items-center">
+                    <!-- This row ensures that the columns align horizontally -->
+                    <!--User Profile Picture-->
+                    <div class="col-md-6 col-lg-5 col-xl-6 text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/10.jpg"
+                        alt="User Profile Picture"
+                        class="img-fluid rounded-circle"
+                      />
+                    </div>
+                    <!--User Information-->
+                    <div class="col-md-6 col-lg-7 col-xl-6">
+                      <!--User Name-->
+                      <div class="row text-center text-md-start mt-3 mt-md-0">
+                        <h4 class="card-title">
+                          <span
+                            class="d-block d-sm-inline d-md-block d-lg-inline d-xl-block d-xxl-inline"
+                            >Brianna</span
+                          >
+                          <span>Haylee</span>
+                        </h4>
+                      </div>
+                      <!--User Location-->
+                      <div class="row text-center text-md-start">
+                        <p class="card-text">Boston, MA</p>
+                      </div>
+                      <!--User Tags-->
+                      <div
+                        class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start"
+                      >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Software</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Design</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >UI/UX</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Sixth User-->
+            <div class="col-6 col-xl-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row d-flex align-items-center">
+                    <!--User Profile Picture-->
+                    <div class="col-md-6 col-lg-5 col-xl-6 text-center">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/40.jpg"
+                        alt="User Profile Picture"
+                        class="img-fluid rounded-circle"
+                      />
+                    </div>
+                    <!--User Information-->
+                    <div class="col-md-6 col-lg-7 col-xl-6">
+                      <!--User Name-->
+                      <div class="row text-center text-md-start mt-3 mt-md-0">
+                        <h4 class="card-title">
+                          <span
+                            class="d-block d-sm-inline d-md-block d-lg-inline d-xl-block d-xxl-inline"
+                            >James</span
+                          >
+                          <span>Hall</span>
+                        </h4>
+                      </div>
+                      <!--User Location-->
+                      <div class="row text-center text-md-start">
+                        <p class="card-text">Austin, TX</p>
+                      </div>
+                      <!--User Tags-->
+                      <div
+                        class="mt-2 d-flex flex-wrap justify-content-center justify-content-md-start"
+                      >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Dance</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Fashion</span
+                        >
+                        <span class="badge text-bg-warning me-2 mb-2"
+                          >Music</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <nav>
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a href="#" class="page-link">Previous</a>
+            </li>
+            <li class="page-item active">
+              <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/darkmodetoggle.js"></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+    </script>
+  </body>
+</html>
